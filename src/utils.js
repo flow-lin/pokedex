@@ -13,3 +13,7 @@ export function capitalize(name) {
 export function getSpriteUrl(id) {
   return `${SPRITE_BASE_URL}/${id}.png`;
 }
+
+export function getOfficialArtworkUrl(id) {
+  return `${SPRITE_BASE_URL}/other/official-artwork/${id}.png`;
+}
